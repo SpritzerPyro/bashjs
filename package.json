@@ -1,5 +1,5 @@
 {
-  "name": "bashjs",
+  "name": "@spritzerpyro/bashjs",
   "version": "0.0.1",
   "description": "Conveniently run bash commands and scripts from javascript files.",
   "main": "lib/index.js",
