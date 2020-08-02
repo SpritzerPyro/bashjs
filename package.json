@@ -1,0 +1,9 @@
+{
+  "name": "bashjs",
+  "version": "0.0.1",
+  "description": "Conveniently run bash commands and scripts from javascript files.",
+  "main": "index.js",
+  "repository": "https://github.com/SpritzerPyro/bashjs.git",
+  "author": "pueri <pyro@outlook.at>",
+  "license": "MIT"
+}
