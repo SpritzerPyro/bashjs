@@ -1,0 +1,19 @@
+{
+  "name": "bashjs",
+  "version": "0.0.1",
+  "description": "Conveniently run bash commands and scripts from javascript files.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.js",
+  "repository": "https://github.com/SpritzerPyro/bashjs.git",
+  "author": "pueri <pyro@outlook.at>",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
