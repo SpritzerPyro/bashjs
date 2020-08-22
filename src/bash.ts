@@ -10,7 +10,7 @@ interface Logger {
 export class Bash {
   constructor(private logger: Logger = console) {}
 
-  public execFile(file: string, env: any = {}): Promise<number> {
+  public execFile(file: string, env: NodeJS.ProcessEnv = {}): Promise<number> {
     const path = resolve(`${__dirname}/../../..`, file);
 
     this.logger.info(`Executing '${path}'`);
